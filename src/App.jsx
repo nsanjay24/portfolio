@@ -65,9 +65,6 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
 
-        <footer className="footer">
-          <p>© 2026 Netipalli Sanjay. Built with React.</p>
-        </footer>
       </div>
     </BrowserRouter>
   )

@@ -15,33 +15,46 @@ function Contact() {
       <section className="contact-grid">
         <a
           className="contact-card"
-          href="mailto:your@email.com"
+          href="mailto:sanjaynetipalli@gmail.com"
         >
           <p className="contact-label">Email</p>
-          <h2>your@email.com</h2>
+          <h2>sanjaynetipalli@gmail.com</h2>
           <span>Send me an email →</span>
         </a>
 
         <a
           className="contact-card"
-          href="#"
+          href="https://github.com/nsanjay24"
           target="_blank"
           rel="noreferrer"
         >
           <p className="contact-label">GitHub</p>
-          <h2>YourUsername</h2>
+          <h2>nsanjay24</h2>
           <span>View my GitHub →</span>
         </a>
 
         <a
           className="contact-card"
-          href="#"
+          href="https://in.linkedin.com/in/sanjaynetipalli"
           target="_blank"
           rel="noreferrer"
         >
           <p className="contact-label">LinkedIn</p>
-          <h2>Your Name</h2>
+          <h2>Sanjay Netipalli</h2>
           <span>Connect with me →</span>
+        </a>
+
+        <a
+          className="contact-card"
+          href="YOUR_DISCORD_INVITE_LINK"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <p className="contact-label">Discord</p>
+
+          <h2>UID : xnj24</h2>
+
+          <span>Connect on Discord →</span>
         </a>
       </section>
     </main>

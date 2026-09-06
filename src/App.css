@@ -84,8 +84,7 @@ body {
 .home-page,
 .projects-page,
 .certifications-page,
-.contact-page,
-.footer {
+.contact-page{
   position: relative;
 
   z-index: 1;
@@ -750,7 +749,7 @@ button,
 .contact-grid {
   display: grid;
 
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 
   gap: 22px;
 }
@@ -826,29 +825,6 @@ button,
   color: #84a98c;
 }
 
-/* =========================
-   FOOTER
-========================= */
-
-.footer {
-  width: 100%;
-
-  padding: 28px 40px;
-
-  text-align: center;
-
-  border-top: 1px solid rgba(132, 169, 140, 0.14);
-
-  background: rgba(47, 62, 70, 0.34);
-
-  color: rgba(202, 210, 197, 0.52);
-
-  font-size: 14px;
-}
-
-.footer p {
-  margin: 0;
-}
 
 /* =========================
    RESPONSIVE
