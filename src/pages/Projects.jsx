@@ -33,9 +33,12 @@ function Projects() {
           </div>
 
           <div className="project-actions">
-            <button className="secondary-button">
+            <a href="https://github.com/nsanjay24/price-tracker"
+            tracker="_blank"
+            rel="noreferrer"
+            className="secondary-button">
               GitHub
-            </button>
+            </a>
             
             <button className="primary-button">
               Live Demo
