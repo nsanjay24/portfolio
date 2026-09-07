@@ -623,6 +623,23 @@ button,
   margin-top: 26px;
 }
 
+.project-coming-soon {
+  display: inline-flex;
+  align-items: center;
+
+  padding: 13px 18px;
+
+  color: rgba(202, 210, 197, 0.5);
+
+  font-size: 14px;
+  font-weight: 500;
+
+  border: 1px dashed rgba(132, 169, 140, 0.3);
+  border-radius: 12px;
+
+  cursor: default;
+}
+
 /* =========================
    CERTIFICATIONS PAGE
 ========================= */

@@ -40,37 +40,45 @@ function Projects() {
               GitHub
             </a>
             
-            <button className="primary-button">
+            <a href="https://price-tracker-production-f365.up.railway.app/"
+            tracker="_blank"
+            rel="noreferrer" 
+            className="primary-button">
               Live Demo
-            </button>
+            </a>
+
           </div>
         </div>
 
         <div className="project-card">
           <p className="project-status">In Development</p>
 
-          <h2>Portfolio Website</h2>
+          <h2>Book Recommender System</h2>
 
           <p>
-            A personal portfolio built with React to showcase my projects,
-            skills, certifications, education, and development journey.
+            A machine learning based recommendation system that suggests books
+            based on user preferences and similarities between books.
           </p>
 
           <div className="project-tags">
-            <span>React</span>
-            <span>Vite</span>
-            <span>CSS</span>
-            <span>Netlify</span>
+            <span>Python</span>
+            <span>Machine Learning</span>
+            <span>Pandas</span>
+            <span>NumPy</span>
+            <span>Scikit-learn</span>
           </div>
 
           <div className="project-actions">
-            <button className="secondary-button">
+            <a href="https://github.com/nsanjay24/book-recommender"
+            tracker="_blank"
+            rel="noreferrer"
+            className="secondary-button">
               GitHub
-            </button>
+            </a>
 
-            <button className="primary-button">
-              Live Demo
-            </button>
+            <span className="project-coming-soon">
+              Live Demo Coming Soon
+            </span>
           </div>
         </div>
       </section>
